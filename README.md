@@ -3,6 +3,7 @@
 [DevPathAi/documents](https://github.com/DevPathAi/documents) 레포의 워크플로우 가이드 문서를 모아 **VitePress** 정적 사이트로 배포하는 레포입니다.
 
 - **Live site**: <https://devpathai.github.io/workflow-guide/>
+- **기능**: 로컬 검색 · 다크 모드 · 코드 하이라이트 · 페이지 목차 · 반응형 (VitePress 기본 테마)
 - **원본 문서**: 가이드 내용 수정은 `documents` 레포에서 합니다. 이 레포는 빌드 파이프라인만 관리합니다.
 
 ## 동작 방식
