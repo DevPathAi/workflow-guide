@@ -23,9 +23,10 @@
 ## 빌드·테스트
 
 - 설치: `npm install`
-- 빌드: `node scripts/build.mjs <documents 체크아웃 경로>` (기본 `../documents`)  / 미리보기: `npm run preview`
+- 로컬: `npm run dev` (http://localhost:5173/workflow-guide/) / 빌드: `npm run build` / 미리보기: `npm run preview`
+- 빌드 구성: **VitePress**. `scripts/prepare-docs.mjs`가 documents의 md를 `docs/<slug>.md`로 복사한 뒤 `vitepress build docs`.
 - 가이드 **내용**은 이 레포가 아니라 [documents](https://github.com/DevPathAi/documents)에서 수정한다. 이 레포는 빌드 파이프라인만 관리.
-- 가이드 추가: `guides.config.json`에 `{ file, slug, title }` 추가 → 빌드가 누락 문서를 경고한다(빌드 출력 확인이 검증).
+- 가이드 추가: `guides.config.json`에 `{ file, slug, title }` 추가 → `prepare-docs`가 누락 문서를 에러로 보고한다(검증).
 
 ## 공통 규칙
 

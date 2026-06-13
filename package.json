@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs",
-    "preview": "npx serve dist"
+    "prepare-docs": "node scripts/prepare-docs.mjs",
+    "dev": "node scripts/prepare-docs.mjs && vitepress dev docs",
+    "build": "node scripts/prepare-docs.mjs && vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "marked": "^16.4.1"
+    "vitepress": "^1.6.3"
   }
 }
