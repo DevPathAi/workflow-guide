@@ -1,0 +1,13 @@
+{
+  "name": "workflow-guide",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "npx serve dist"
+  },
+  "devDependencies": {
+    "marked": "^16.4.1"
+  }
+}

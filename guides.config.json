@@ -1,0 +1,12 @@
+{
+  "title": "DevPath AI Workflow Guide",
+  "description": "DevPath AI 팀 워크플로우 가이드 모음",
+  "guides": [
+    { "file": "09_Git_규칙_정의서.md", "slug": "git-rules", "title": "Git 규칙 정의서" },
+    { "file": "12_코드_리뷰_규칙.md", "slug": "code-review", "title": "코드 리뷰 규칙" },
+    { "file": "11_테스트_전략서.md", "slug": "test-strategy", "title": "테스트 전략서" },
+    { "file": "10_환경_설정_템플릿.md", "slug": "env-setup", "title": "환경 설정 템플릿" },
+    { "file": "14_배포_가이드.md", "slug": "deploy-guide", "title": "배포 가이드" },
+    { "file": "16_운영_메뉴얼.md", "slug": "ops-manual", "title": "운영 메뉴얼" }
+  ]
+}
