@@ -1,4 +1,4 @@
-# DevPath AI Workflow Guide
+# 레바(Leva) Workflow Guide
 
 [DevPathAi/documents](https://github.com/DevPathAi/documents) 레포의 워크플로우 가이드 문서를 모아 **VitePress** 정적 사이트로 배포하는 레포입니다.
 
